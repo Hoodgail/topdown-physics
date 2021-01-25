@@ -1,49 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>topdown-physics</title>
-    <style type="text/css">
-      #instructions {
-        position: absolute;
-        top: 1em;
-        left: 1em;
-        padding: 1em;
-        max-width: 240px;
-        background: #000;
-        background: rgba(0,0,0,0.8);
-        color: #fff;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 12px;
-        line-height: 1.5em;
-        font-weight: 600;
-      }
 
-      a {
-        color: #85CAE8;
-        text-decoration: none;
-        border-bottom: 1px solid #85CAE8;
-      }
+<head>
+    <title>stuff</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
 
-      p {
-        margin-top: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="instructions">
-      <p>
-        Use the arrow keys or WASD to move around,
-        left click to destroy blocks and
-        right click to create them.
-      </p>
-      <p>
-        The world is persistent:
-        refreshing will take you back to the center,
-        but your changes are stored locally using
-        <a href="http://github.com/maxogden/level.js">level.js</a>.
-      </p>
-      Source available on <a href="http://github.com/hughsk/topdown-physics">Github</a>.
+<body>
+    <div id="root">
     </div>
-    <script type="text/javascript" src="bundle.js"></script>
-  </body>
+    <script type="module" src="./main.js"></script>
+    <div class="credit">
+        <h1>Special thanks to <a href="https://github.com/Hoodgail">Hoodgail</a> for the threejs effect!</h1>
+    </div>
+</body>
+
 </html>
